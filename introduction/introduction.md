@@ -3,21 +3,23 @@
 
 This a course about data structure in C.
 
-## Lesson 0 - Setup the environment
+## Setup the environment
 
-mysys2 `https://www.msys2.org/`
+In windows install mysys2 `https://www.msys2.org/` for gcc.
 
-```bash
-pacman -Su
-```
+Check the gcc version
 
 ```bash
-packman -S git ming-w64-x86_64-gcc base-devel
+gcc -v
 ```
+
+Check the git version
 
 ```bash
 git --version
 ```
+
+Check the make version
 
 ```bash
 make --version

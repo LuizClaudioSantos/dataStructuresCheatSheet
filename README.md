@@ -1,6 +1,6 @@
-# Data Strcuture in C
+# Data Strcutures in C
 
-This is a collection of data structure in C, I did it for my own entertment and posterior consulting, feel free to reach me out with any question or concern that you cloud have.
+This is a collection of data structures in C, I did it for my own entertment and future consulting, feel free to reach me out with any question or concern that you cloud have.
 
 I see two ways that you can use this repository, you can go through each one of the chapters below, or junp straight to the topic that you have intertint in.
 
@@ -8,9 +8,9 @@ I see two ways that you can use this repository, you can go through each one of 
 
 [Introduction](introduction/introduction.md)
 
-[First Data Structures](firsts_data_structure/firstsDataStructures.md)
+[First Data Structure](first_data_structure/firstsDataStructure.md)
 
-## List
+## Lists
 
 [Linear List](linear_list/linearList.md)
 
@@ -25,3 +25,5 @@ I see two ways that you can use this repository, you can go through each one of 
 [Trie](trie/trie.md)
 
 [AVL Tree](avl/avlTrie.md)
+
+## Graphs

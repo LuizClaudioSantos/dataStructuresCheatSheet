@@ -1,6 +1,6 @@
 # AVL Tree
 The AVL Tree is similar to the Binary Search Tree, but in an AVL Tree we have some strategies in place to avoid the tree to be unbalance.
-To keep our tree balance, first we have to iundersatand concept of a node height. The node heigh is the disctance between this node and the leave below it. Hence we must be sure that the difference between the heigh of two sibbiling nodes is 1 or -1 or 0. 
+To keep our tree balance, first we have to iundersatand concept of a node height. The node heigh is the disctance between this node and the leave below it. Hence we must be sure that the difference between the heigh of two sibbiling nodes is 1 or -1 or 0.
 
 ## Requirements
 Here you will find tree directories: dist (where the executable files will be created), include (where the header file can be find with the data structure definition) and src (where you can find the "c" file witht the data structure implementation)
