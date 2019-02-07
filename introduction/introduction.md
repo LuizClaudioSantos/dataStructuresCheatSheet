@@ -1,7 +1,7 @@
 
 # Data Structure
 
-This a course about data structure in C.
+This all about data structures in C.
 
 ## Setup the environment
 
@@ -25,7 +25,7 @@ Check the make version
 make --version
 ```
 
-## Lesson 1
+## Step 1
 
 First things first, this must be basicest example of program in C, it print the message "Hello World" in the screen.
 
@@ -44,7 +44,7 @@ I am using the gcc to compile it:
 gcc helloWorld.c -o helloWorld
 ```
 
-## Lesson 2
+## Step 2
 
 Let create our first data structure in c. In the code below I have create a constant called.
 
@@ -89,26 +89,3 @@ int main() {
 }
 ```
 
-## Lesson 3
-
-### Using gdb
-
-gcc linearList.c -g
-
-```bash
-gdb a.exe
-```
-
-```bahs
-run
-```
-
-f
-
-s
-
-p *l->A[0].key
-
-## Linear List
-
-Let start with simple implementation of a linar list based in a array.
