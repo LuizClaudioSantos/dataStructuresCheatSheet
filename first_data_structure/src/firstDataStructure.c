@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include "../include/firstDataStructure.h"
 
-
-
-int main() {
+void createAPerson() {
 
     WeightHeight person;
     person.weight = 80;
@@ -16,6 +14,4 @@ int main() {
     } else {
         printf("Shorter than max height!\n");
     }
-
-    return 0;
 }

@@ -5,3 +5,5 @@ typedef struct {
     int weight;
     int height;
 } WeightHeight;
+
+void createAPerson(); 
