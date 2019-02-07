@@ -24,6 +24,4 @@ bool deleteElementList(KEYTYPE key, LIST* l);
 
 void listRestartup(LIST* l);
 
-void showList(LIST* l);
-
 REGISTER* createRegister( int key );

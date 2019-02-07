@@ -1,15 +1,13 @@
 BIN  = ./dist
 SRC  = ./src
 INC  = ./include
-
+TEST = ./test
 
 compile: 
-	gcc $(SRC)/linearList.c -o $(BIN)/linearList
-	gcc $(SRC)/linearListSecond.c -o $(BIN)/linearListSecond
+	gcc $(SRC)/linearList.c $(TEST)/test.c -o $(BIN)/linearList
 	
 run:
 	./$(BIN)/linearList
-	./$(BIN)/linearListSecond
 
 clean: 
 	rm ./$(BIN)/*.exe
